@@ -1,200 +1,888 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinergia Continua Consultoría</title>
-    <meta name="description" content="Impulsamos tu negocio hacia el éxito sostenible.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- FontAwesome para íconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinergia Continua — Consultoría en Gestión Educativa</title>
+  <meta name="description" content="Modelo integral para consultoría en gestión educativa: RVOEs, registro institucional, certificación, titulación, auditoría y mejora continua.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">
-                <img src="assets/LOGO HORIZONTAL.png" alt="Sinergia Continua Consultoría" class="logo-img">
-            </a>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="#contacto" class="btn btn-outline">Contacto</a></li>
-            </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
+
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav>
+  <div>
+    <div class="nav-brand">
+      <img src="assets/SINERGIA CONTINUA HORIZONTAL.svg" alt="Sinergia Continua" style="height: 50px; width: auto; object-fit: contain; transform: scale(4.0); transform-origin: left center; margin-left: 25px;">
+    </div>
+    
+  </div>
+  <div class="nav-links">
+    <a href="#servicios">Servicios</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#canvas">Canvas</a>
+    <a href="#tarifas">Tarifas</a>
+    <a href="#universidad">Universidad</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="inicio">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-content">
+    <div class="hero-badge fade-up">Modelo de Negocio · Gestión Educativa · 2026</div>
+    <h1 class="fade-up-delay-1">
+      Transformamos<br>la <span>Gestión Educativa</span><br>en resultados reales
+    </h1>
+    <p class="hero-tagline fade-up-delay-2">
+      Consultoría integral para instituciones educativas: RVOEs, registro operacional, certificación, auditoría y nuevo modelo universitario. Metodología propia · Resultados garantizados.
+    </p>
+    <div class="hero-kpis fade-up-delay-2">
+      <div class="hero-kpi">
+        <div class="hero-kpi-val">5</div>
+        <div class="hero-kpi-lbl">Líneas de Servicio</div>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-kpi">
+        <div class="hero-kpi-val">3</div>
+        <div class="hero-kpi-lbl">Niveles de Consultoría</div>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-kpi">
+        <div class="hero-kpi-val">360°</div>
+        <div class="hero-kpi-lbl">Gestión Institucional</div>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-kpi">
+        <div class="hero-kpi-val">100%</div>
+        <div class="hero-kpi-lbl">Cumplimiento SEP/RVOE</div>
+      </div>
+    </div>
+    <div class="hero-cta-row fade-up-delay-3">
+      <a href="#servicios" class="btn-gold">Ver Servicios ↓</a>
+      <a href="#canvas" class="btn-outline">Modelo Canvas</a>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Desplazar</span><div class="scroll-arrow"></div></div>
+</section>
+
+<!-- ══════════ PROPUESTA DE VALOR ══════════ -->
+<section id="propuesta">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Nuestra Propuesta</div>
+      <h2 class="section-title">¿Por qué <span>Sinergia Continua Educativa</span>?</h2>
+      <p class="section-desc">Porque el cumplimiento normativo educativo no tiene que ser un laberinto. Somos el puente entre las instituciones y la autoridad educativa.</p>
+    </div>
+    <div class="benefit-strip">
+      <div class="benefit-pill"><span class="icon">🎯</span> Especialistas en normativa SEP / RVOE</div>
+      <div class="benefit-pill"><span class="icon">⚡</span> Procesos ágiles y documentados</div>
+      <div class="benefit-pill"><span class="icon">🔒</span> Confidencialidad institucional</div>
+      <div class="benefit-pill"><span class="icon">📊</span> Dashboards de seguimiento en tiempo real</div>
+      <div class="benefit-pill"><span class="icon">🤝</span> Acompañamiento durante todo el proceso</div>
+      <div class="benefit-pill"><span class="icon">📋</span> Metodología propia Sinergia-GEDu</div>
+      <div class="benefit-pill"><span class="icon">🏛️</span> Experiencia con SEP, SEPRO, COEPES</div>
+      <div class="benefit-pill"><span class="icon">🚀</span> Resultados medibles y entregables</div>
+    </div>
+    <div class="quote-box mt-3">
+      "El éxito de una institución educativa no depende solo de su visión académica, sino de la solidez de su estructura legal, operativa y financiera. Sinergia Continua existe para construir esa estructura."
+    </div>
+    <div class="grid-4 mt-3">
+      <div class="card card-gold" style="text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.5rem;">📜</div>
+        <div style="font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:700;color:#fff;">Legal &amp; Normativo</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.4rem;">RVOE, acuerdos, validez oficial</div>
+      </div>
+      <div class="card card-accent" style="text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.5rem;">🏫</div>
+        <div style="font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:700;color:#fff;">Operativo</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.4rem;">Registro, reglamentos, planta docente</div>
+      </div>
+      <div class="card card-teal" style="text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.5rem;">🎓</div>
+        <div style="font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:700;color:#fff;">Académico</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.4rem;">Planes de estudio, titulación, certificación</div>
+      </div>
+      <div class="card card-purple" style="text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.5rem;">📈</div>
+        <div style="font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:700;color:#fff;">Estratégico</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.4rem;">Auditoría, mejora y modelo de negocio</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SERVICIOS ══════════ -->
+<section id="servicios" style="background:#0a0a0a;">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Portafolio de Servicios</div>
+      <h2 class="section-title">7 Líneas de <span>Servicio Especializado</span></h2>
+      <p class="section-desc">Cada línea aborda una necesidad crítica de las instituciones educativas privadas en México, desde la legalización hasta la innovación tecnológica educativa.</p>
+    </div>
+    <div class="grid-2" style="gap:1.75rem;">
+
+      <!-- S1: RVOE -->
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <div class="service-icon">📋</div>
+        <div class="service-subtitle">Servicio 01</div>
+        <div class="service-title">RVOEs — Reconocimiento de Validez Oficial de Estudios</div>
+        <div class="service-desc">
+          Gestionamos el trámite completo ante la SEP o la secretaría estatal para que tu institución obtenga el RVOE federal o estatal. Desde el análisis de viabilidad hasta la resolución favorable, aseguramos que cada paso cumpla con los criterios técnicos, jurídicos y pedagógicos exigidos.
+        </div>
+        <div class="alert alert-gold mb-2">
+          <span class="alert-icon">⚠️</span>
+          <span>El RVOE es el fundamento legal de toda institución educativa privada. Sin él, no puede operar legalmente ni emitir certificados con validez oficial.</span>
+        </div>
+        <div class="tag-list">
+          <span class="tag">RVOE Federal</span>
+          <span class="tag">RVOE Estatal</span>
+          <span class="tag">OTA (Opinión Técnica)</span>
+          <span class="tag">Análisis curricular</span>
+          <span class="tag">Planta docente</span>
+          <span class="tag">Dictamen SEP</span>
+          <span class="tag">Infraestructura</span>
+          <span class="tag">Modificación de RVOE</span>
+        </div>
+        <hr class="separator">
+        <strong style="font-size:0.82rem;color:#fff;">Entregables:</strong>
+        <ul style="list-style:none;margin-top:0.5rem;">
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:var(--gold);">›</span> Diagnóstico de viabilidad con semáforo normativo</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:var(--gold);">›</span> Expediente técnico-pedagógico completo (RVOE nuevo o modificación)</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:var(--gold);">›</span> Gestión y actualización de OTA (Opiniones Técnicas Académicas)</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:var(--gold);">›</span> Seguimiento de trámite ante SEP, SEPRO o autoridad estatal</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:var(--gold);">›</span> Resolución favorable documentada y archivada</li>
+        </ul>
+        <div class="alert alert-gold" style="margin-top:1rem;">
+          <span class="alert-icon">📌</span>
+          <span><strong>OTA:</strong> La Opinión Técnica Académica es el paso previo indispensable para obtener o modificar un RVOE. Sinergia Continua gestiona este dictamen especializado ante la autoridad correspondiente, reduciendo tiempos y errores documentales.</span>
+        </div>
+      </div>
+
+      <!-- S2: Registro y Operación -->
+      <div class="service-card blue">
+        <div class="service-num">02</div>
+        <div class="service-icon blue">🏛️</div>
+        <div class="service-subtitle" style="color:#93c5fd;">Servicio 02</div>
+        <div class="service-title">Registro, Operación y Gobernanza Institucional</div>
+        <div class="service-desc">
+          Más allá del RVOE, operar legalmente requiere una estructura institucional robusta. Diseñamos y formalizamos todos los instrumentos normativos internos: estatutos, reglamentos, organigramas, perfiles de puesto y manuales de procedimientos alineados a los estándares SEP. Incluye asesoría estratégica en gobernanza para consolidar el órgano de dirección.
+        </div>
+        <div class="alert alert-blue mb-2">
+          <span class="alert-icon">ℹ️</span>
+          <span>Una operación institucional sólida reduce riesgos de sanciones, facilita auditorías y proyecta confianza ante alumnos, familias y autoridades. La gobernanza define quién decide, cómo y con qué respaldo normativo.</span>
+        </div>
+        <div class="tag-list">
+          <span class="tag blue">Estatutos</span>
+          <span class="tag blue">Reglamento escolar</span>
+          <span class="tag blue">Manual de docentes</span>
+          <span class="tag blue">Órgano de gobierno</span>
+          <span class="tag blue">Gobernanza académica</span>
+          <span class="tag blue">Control escolar</span>
+          <span class="tag blue">SIGED / SICRES</span>
+          <span class="tag blue">Consejo Directivo</span>
+        </div>
+        <hr class="separator">
+        <strong style="font-size:0.82rem;color:#fff;">Entregables:</strong>
+        <ul style="list-style:none;margin-top:0.5rem;">
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#93c5fd;">›</span> Reglamento general institucional completo</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#93c5fd;">›</span> Modelo de gobernanza: funciones, facultades y toma de decisiones</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#93c5fd;">›</span> Manuales de procedimientos operativos y administrativos</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#93c5fd;">›</span> Registro en sistemas federales (SIGED / SICRES)</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#93c5fd;">›</span> Organigrama y perfiles de puesto certificables</li>
+        </ul>
+      </div>
+
+      <!-- S2b: Diseño Académico -->
+      <div class="service-card" style="border-color:rgba(236,72,153,0.3);">
+        <div class="service-num">02b</div>
+        <div class="service-icon" style="background:rgba(236,72,153,0.1);border-color:rgba(236,72,153,0.25);">📐</div>
+        <div class="service-subtitle" style="color:#f9a8d4;">Servicio complementario</div>
+        <div class="service-title">Diseño Académico y Curricular</div>
+        <div class="service-desc">
+          Diseñamos e implementamos nuevos planes y programas de estudio alineados a los requerimientos de la SEP, DGAIR y COEPES. Aseguramos que el plan de estudios sea pedagógicamente sólido, normativamente correcto y pertinente para el mercado laboral regional y nacional.
+        </div>
+        <div class="alert" style="background:rgba(236,72,153,0.08);border:1px solid rgba(236,72,153,0.3);color:#f9a8d4;margin-bottom:0.75rem;display:flex;gap:0.8rem;padding:1rem 1.25rem;border-radius:10px;font-size:0.87rem;">
+          <span>🎨</span>
+          <span>Un plan de estudios mal diseñado es la causa más frecuente de rechazo en trámites RVOE. El diseño curricular correcto es la base de una institución educativa exitosa.</span>
+        </div>
+        <div class="tag-list">
+          <span class="tag" style="background:rgba(236,72,153,0.1);color:#f9a8d4;border-color:rgba(236,72,153,0.2);">Mapa curricular</span>
+          <span class="tag" style="background:rgba(236,72,153,0.1);color:#f9a8d4;border-color:rgba(236,72,153,0.2);">Perfil de egreso</span>
+          <span class="tag" style="background:rgba(236,72,153,0.1);color:#f9a8d4;border-color:rgba(236,72,153,0.2);">Programas de asignatura</span>
+          <span class="tag" style="background:rgba(236,72,153,0.1);color:#f9a8d4;border-color:rgba(236,72,153,0.2);">Competencias SATCA</span>
+          <span class="tag" style="background:rgba(236,72,153,0.1);color:#f9a8d4;border-color:rgba(236,72,153,0.2);">Modalidad escolarizada/mixta</span>
+          <span class="tag" style="background:rgba(236,72,153,0.1);color:#f9a8d4;border-color:rgba(236,72,153,0.2);">Vinculación laboral</span>
+        </div>
+        <hr class="separator">
+        <strong style="font-size:0.82rem;color:#fff;">Entregables:</strong>
+        <ul style="list-style:none;margin-top:0.5rem;">
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#f9a8d4;">›</span> Plan de estudios completo con enfoque por competencias</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#f9a8d4;">›</span> Programas de asignatura en formato SEP</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#f9a8d4;">›</span> Perfil de ingreso, egreso y campo ocupacional</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#f9a8d4;">›</span> Estudio de pertinencia y demanda social</li>
+        </ul>
+      </div>
+
+      <!-- S3: Certificación y Titulación -->
+      <div class="service-card teal">
+        <div class="service-num">03</div>
+        <div class="service-icon teal">🎓</div>
+        <div class="service-subtitle" style="color:#7dd3fc;">Servicio 03</div>
+        <div class="service-title">Proceso de Certificación y Titulación</div>
+        <div class="service-desc">
+          Diseñamos e implementamos los procesos de certificación parcial y total, así como las rutas de titulación conforme a la normativa vigente. Apoyamos desde la elaboración del plan de estudios hasta la gestión del archivo de títulos y el registro ante la DGP.
+        </div>
+        <div class="tag-list">
+          <span class="tag teal">Plan de estudios</span>
+          <span class="tag teal">Certificados parciales</span>
+          <span class="tag teal">Expedición de títulos</span>
+          <span class="tag teal">Modalidades de titulación</span>
+          <span class="tag teal">Registro DGP</span>
+          <span class="tag teal">Apostilla</span>
+        </div>
+        <hr class="separator">
+        <strong style="font-size:0.82rem;color:#fff;">Entregables:</strong>
+        <ul style="list-style:none;margin-top:0.5rem;">
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#7dd3fc;">›</span> Protocolo institucional de titulación</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#7dd3fc;">›</span> Diseño de modalidades: tesis, proyectos, EGEL</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#7dd3fc;">›</span> Formatos y procedimientos de archivo digital</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#7dd3fc;">›</span> Registro electrónico de títulos ante SEP</li>
+        </ul>
+      </div>
+
+      <!-- S4: Auditoría y Mejora Continua -->
+      <div class="service-card purple">
+        <div class="service-num">04</div>
+        <div class="service-icon purple">🔍</div>
+        <div class="service-subtitle" style="color:#c4b5fd;">Servicio 04</div>
+        <div class="service-title">Auditoría y Mejora Continua Institucional</div>
+        <div class="service-desc">
+          Realizamos auditorías internas completas para identificar brechas normativas, operativas y académicas. Generamos planes de mejora con indicadores, responsables y fechas, transformando el cumplimiento en una ventaja competitiva institucional sostenible.
+        </div>
+        <div class="alert" style="background:rgba(124,58,237,0.08);border:1px solid rgba(124,58,237,0.3);color:#c4b5fd;" class="mb-2">
+          <span class="alert-icon">🔬</span>
+          <span>Preparamos a las instituciones para acreditaciones ante FIMPES, COPAES y organismos internacionales.</span>
+        </div>
+        <div class="tag-list">
+          <span class="tag purple">Auditoría documental</span>
+          <span class="tag purple">Indicadores KPI</span>
+          <span class="tag purple">FIMPES / COPAES</span>
+          <span class="tag purple">Autoevaluación institucional</span>
+          <span class="tag purple">Plan de mejora</span>
+          <span class="tag purple">Benchmarking</span>
+          <span class="tag purple">Pares académicos</span>
+          <span class="tag purple">Cultura de calidad</span>
+        </div>
+        <hr class="separator">
+        <strong style="font-size:0.82rem;color:#fff;">Entregables:</strong>
+        <ul style="list-style:none;margin-top:0.5rem;">
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#c4b5fd;">›</span> Informe de auditoría con hallazgos, riesgos y recomendaciones</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#c4b5fd;">›</span> Dashboard de indicadores institucionales en tiempo real</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#c4b5fd;">›</span> Plan de acción correctiva y preventiva con responsables</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#c4b5fd;">›</span> Guía de autoevaluación para comités internos</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#c4b5fd;">›</span> Preparación y acompañamiento para acreditación FIMPES/COPAES</li>
+        </ul>
+      </div>
+
+      <!-- S6: Plataformas e Innovación Educativa (NUEVA) -->
+      <div class="service-card amber">
+        <div class="service-num">06</div>
+        <div class="service-icon amber">💻</div>
+        <div class="service-subtitle" style="color:#fcd34d;">Servicio 06 — EdTech</div>
+        <div class="service-title">Plataformas e Innovación Educativa Digital</div>
+        <div class="service-desc">
+          Implementamos y configuramos plataformas LMS (Moodle y otras) adaptadas al modelo pedagógico de la institución. Diseñamos entornos de aprendizaje en línea, capacitamos a docentes en uso de herramientas digitales y acompañamos la transición hacia modalidades mixtas o en línea con validez SEP.
+        </div>
+        <div class="alert" style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.3);color:#fcd34d;margin-bottom:0.75rem;display:flex;gap:0.8rem;padding:1rem 1.25rem;border-radius:10px;font-size:0.87rem;">
+          <span>⚡</span>
+          <span>La educación en línea y mixta requiere no solo tecnología, sino un diseño instruccional que cumpla con los criterios de la SEP para modalidades no escolarizadas.</span>
+        </div>
+        <div class="tag-list">
+          <span class="tag amber">Moodle LMS</span>
+          <span class="tag amber">Aula virtual</span>
+          <span class="tag amber">Diseño instruccional</span>
+          <span class="tag amber">Modalidad en línea SEP</span>
+          <span class="tag amber">Capacitación docente</span>
+          <span class="tag amber">Recursos digitales</span>
+          <span class="tag amber">Evaluación en línea</span>
+        </div>
+        <hr class="separator">
+        <strong style="font-size:0.82rem;color:#fff;">Entregables:</strong>
+        <ul style="list-style:none;margin-top:0.5rem;">
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#fcd34d;">›</span> Plataforma LMS instalada, configurada y personalizada</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#fcd34d;">›</span> Cursos y materiales en línea cargados en el aula virtual</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#fcd34d;">›</span> Manual de uso para docentes y estudiantes</li>
+          <li style="font-size:0.8rem;color:var(--text-muted);padding:0.2rem 0;display:flex;gap:0.5rem;"><span style="color:#fcd34d;">›</span> Propuesta normativa para modalidad no escolarizada ante SEP</li>
+        </ul>
+      </div>
+
+      <!-- S7: Nuevo Modelo Universitario (full width) -->
+      <div class="service-card green" style="grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:2rem;">
+        <div>
+          <div class="service-num">07</div>
+          <div class="service-icon green">🚀</div>
+          <div class="service-subtitle" style="color:#6ee7b7;">Servicio 07 — Estratégico</div>
+          <div class="service-title" style="font-size:1.4rem;">Nuevo Modelo de Negocio para tu Universidad</div>
+          <div class="service-desc">
+            Diseñamos el modelo de negocio completo para instituciones universitarias que buscan reinventarse o lanzar nuevas propuestas. Integramos innovación pedagógica, sostenibilidad financiera, propuesta de valor diferenciada y estrategia de posicionamiento en el mercado educativo regional y nacional.
+          </div>
+          <div class="tag-list">
+            <span class="tag green">Canvas universitario</span>
+            <span class="tag green">Estudio de mercado</span>
+            <span class="tag green">Diseño académico</span>
+            <span class="tag green">Financiamiento</span>
+            <span class="tag green">Marketing educativo</span>
+            <span class="tag green">Internacionalización</span>
+            <span class="tag green">Vinculación empresarial</span>
+          </div>
+        </div>
+        <div>
+          <div class="alert alert-green mb-2">
+            <span class="alert-icon">💡</span>
+            <span>Este servicio integra análisis curricular, OTA, RVOEs de nuevas carreras, plataforma digital, estudio de mercado y proyecciones financieras a 5 años. Un servicio 360° para la transformación universitaria.</span>
+          </div>
+          <strong style="font-size:0.82rem;color:#fff;">Componentes del Nuevo Modelo:</strong>
+          <ul style="list-style:none;margin-top:0.75rem;">
+            <li style="font-size:0.82rem;color:var(--text-muted);padding:0.3rem 0;display:flex;gap:0.5rem;align-items:flex-start;border-bottom:1px solid var(--border-light);"><span style="color:#6ee7b7;">01</span> Análisis FODA institucional y benchmarking del sector</li>
+            <li style="font-size:0.82rem;color:var(--text-muted);padding:0.3rem 0;display:flex;gap:0.5rem;align-items:flex-start;border-bottom:1px solid var(--border-light);"><span style="color:#6ee7b7;">02</span> Diseño de oferta educativa diferenciada con pertinencia social</li>
+            <li style="font-size:0.82rem;color:var(--text-muted);padding:0.3rem 0;display:flex;gap:0.5rem;align-items:flex-start;border-bottom:1px solid var(--border-light);"><span style="color:#6ee7b7;">03</span> Modelo financiero: matrícula, costos, punto de equilibrio, ROI</li>
+            <li style="font-size:0.82rem;color:var(--text-muted);padding:0.3rem 0;display:flex;gap:0.5rem;align-items:flex-start;border-bottom:1px solid var(--border-light);"><span style="color:#6ee7b7;">04</span> Estrategia de captación, fidelización y vinculación laboral</li>
+            <li style="font-size:0.82rem;color:var(--text-muted);padding:0.3rem 0;display:flex;gap:0.5rem;align-items:flex-start;border-bottom:1px solid var(--border-light);"><span style="color:#6ee7b7;">05</span> Implementación de plataforma digital y modalidades mixtas</li>
+            <li style="font-size:0.82rem;color:var(--text-muted);padding:0.3rem 0;display:flex;gap:0.5rem;align-items:flex-start;"><span style="color:#6ee7b7;">06</span> Plan de implementación por fases con hitos y responsables</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PROCESO ══════════ -->
+<section id="proceso">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Metodología Sinergia-GEDu</div>
+      <h2 class="section-title">Nuestro <span>Proceso de Trabajo</span></h2>
+      <p class="section-desc">Seguimos una metodología estructurada de 6 fases que garantiza resultados medibles en cada etapa del proyecto.</p>
+    </div>
+    <div class="grid-2" style="gap:3rem;align-items:start;">
+      <div class="process-flow">
+        <div class="process-step">
+          <div class="step-left">
+            <div class="step-circle">1</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-body">
+            <div class="step-label">Diagnóstico</div>
+            <div class="step-title">Levantamiento y Análisis Institucional</div>
+            <div class="step-desc">Revisión documental, entrevistas con directivos, análisis del contexto normativo y determinación del estado actual versus el estado ideal. Generamos un semáforo de cumplimiento.</div>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-left">
+            <div class="step-circle">2</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-body">
+            <div class="step-label">Planeación</div>
+            <div class="step-title">Diseño del Plan de Trabajo</div>
+            <div class="step-desc">Definición de objetivos, alcances, cronograma, entregables y KPIs. Asignación de equipo consultor especializado por línea de servicio.</div>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-left">
+            <div class="step-circle">3</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-body">
+            <div class="step-label">Construcción</div>
+            <div class="step-title">Desarrollo de Documentos y Procesos</div>
+            <div class="step-desc">Elaboración de expedientes, manuales, reglamentos, planes de estudio y cualquier instrumento normativo requerido. Revisión iterativa con la institución.</div>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-left">
+            <div class="step-circle">4</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-body">
+            <div class="step-label">Gestión</div>
+            <div class="step-title">Trámite ante Autoridad Educativa</div>
+            <div class="step-desc">Presentación oficial ante SEP, SEPRO u organismos estatales. Seguimiento activo, atención de prevenciones y comunicación constante con la institución.</div>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-left">
+            <div class="step-circle">5</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-body">
+            <div class="step-label">Resolución</div>
+            <div class="step-title">Obtención y Registro del Resultado</div>
+            <div class="step-desc">Recepción del dictamen favorable, formalización del acuerdo o resolución, e integración del resultado en el expediente institucional permanente.</div>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-left">
+            <div class="step-circle">6</div>
+          </div>
+          <div class="step-body" style="padding-bottom:0;">
+            <div class="step-label">Continuidad</div>
+            <div class="step-title">Acompañamiento y Mejora Continua</div>
+            <div class="step-desc">Asesoría post-trámite, actualización normativa proactiva, auditorías periódicas y reportes de indicadores institucionales para sostener el cumplimiento.</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card card-gold" style="margin-bottom:1.5rem;">
+          <div style="font-family:'Outfit',sans-serif;font-size:1.05rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">⏱️ Tiempos Estimados por Servicio</div>
+          <table style="width:100%;border-collapse:collapse;">
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">RVOE Estatal (nuevo)</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">4 – 8 meses</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">RVOE Federal (nuevo)</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">8 – 18 meses</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">OTA / Modificación de RVOE</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">2 – 6 meses</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">Diseño Académico y Curricular</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">6 – 12 semanas</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">Registro y Gobernanza Operacional</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">2 – 4 meses</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">Certificación y Titulación</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">1 – 3 meses</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">Auditoría y Mejora Continua</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">3 – 6 semanas</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border-light);">
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">Plataformas e Innovación Digital</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">4 – 8 semanas</td>
+            </tr>
+            <tr>
+              <td style="font-size:0.8rem;color:var(--text-muted);padding:0.5rem 0;">Nuevo Modelo Universitario 360°</td>
+              <td style="font-size:0.8rem;color:var(--gold-light);text-align:right;font-weight:600;">3 – 5 meses</td>
+            </tr>
+          </table>
+        </div>
+        <div class="card">
+          <div style="font-family:'Outfit',sans-serif;font-size:1.05rem;font-weight:700;color:#fff;margin-bottom:0.75rem;">🗂️ Documentos que Gestionamos</div>
+          <ul style="list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:0.3rem 1rem;">
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Acuerdo SEP / RVOE</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> OTA (Opinión Técnica Académica)</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Planes y programas de estudio</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Perfil de ingreso y egreso</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Estudio de pertinencia social</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Reglamentos internos</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Manual de gobernanza</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Curricula docente</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Certificados parciales</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Actas de titulación</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Registro SIGED / SICRES</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Estatutos orgánicos</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Manuales de calidad</li>
+            <li style="font-size:0.78rem;color:var(--text-muted);display:flex;gap:0.4rem;"><span style="color:var(--gold);">✓</span> Diseño instruccional (LMS)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ BUSINESS MODEL CANVAS ══════════ -->
+<section id="canvas" style="background:rgba(13,32,68,0.35);">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Business Model Canvas</div>
+      <h2 class="section-title">Modelo de Negocio <span>Canvas</span></h2>
+      <p class="section-desc">Estructura completa del modelo de negocio de Sinergia Continua Gestión Educativa bajo el framework de Osterwalder.</p>
+    </div>
+    <div class="canvas-wrapper">
+      <div class="canvas-grid">
+        <!-- Fila 1 top (5 columnas) -->
+        <div class="canvas-cell" style="grid-column:1;grid-row:1;">
+          <div class="canvas-cell-title">🤝 Socios Clave</div>
+          <ul>
+            <li>Abogados especializados en educación</li>
+            <li>Ex-funcionarios SEP / SEPRO / DGAIR</li>
+            <li>Despachos contables y fiscales</li>
+            <li>Universidades aliadas (benchmarking)</li>
+            <li>FIMPES / COPAES / COEPES</li>
+            <li>Proveedores Moodle y EdTech</li>
+            <li>Expertos en diseño instruccional</li>
+            <li>Notarios y fedatarios públicos</li>
+          </ul>
+        </div>
+        <div class="canvas-cell" style="grid-column:2;grid-row:1;">
+          <div class="canvas-cell-title">⚙️ Actividades Clave</div>
+          <ul>
+            <li>Gestión de trámites RVOE y OTA</li>
+            <li>Diseño académico y curricular</li>
+            <li>Gobernanza institucional y normativa</li>
+            <li>Implementación LMS / Moodle</li>
+            <li>Auditorías institucionales</li>
+            <li>Consultoría estratégica universitaria</li>
+            <li>Capacitación directiva y docente</li>
+            <li>Análisis de pertinencia social</li>
+          </ul>
+        </div>
+        <div class="canvas-cell" style="grid-column:3;grid-row:1 / span 2;background:rgba(201,162,39,0.06);border-color:rgba(201,162,39,0.3);">
+          <div class="canvas-cell-title" style="color:var(--gold-light);">💎 Propuesta de Valor</div>
+          <ul>
+            <li>Obtención garantizada de RVOE</li>
+            <li>Operación institucional 100% legal</li>
+            <li>Ahorro de tiempo y riesgo normativo</li>
+            <li>Acompañamiento experto integral</li>
+            <li>Modelo universitario diferenciado</li>
+            <li>Mejora continua documentada</li>
+            <li>Dashboard de seguimiento en vivo</li>
+          </ul>
+        </div>
+        <div class="canvas-cell" style="grid-column:4;grid-row:1;">
+          <div class="canvas-cell-title">❤️ Relación con Clientes</div>
+          <ul>
+            <li>Consultor dedicado por cliente</li>
+            <li>Reuniones de avance quincenales</li>
+            <li>Acceso a portal de seguimiento</li>
+            <li>Alertas normativas automáticas</li>
+            <li>Soporte por WhatsApp Business</li>
+          </ul>
+        </div>
+        <div class="canvas-cell" style="grid-column:5;grid-row:1;">
+          <div class="canvas-cell-title">👥 Segmentos de Mercado</div>
+          <ul>
+            <li>Escuelas privadas en gestación</li>
+            <li>Universidades con RVOE en riesgo</li>
+            <li>Institutos técnicos y bachilleratos</li>
+            <li>Empresas que lanzan escuelas</li>
+            <li>Universidades en expansión o rediseño</li>
+            <li>Grupos educativos regionales</li>
+            <li>Instituciones que migran a modalidad mixta/en línea</li>
+          </ul>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="canvas-cell" style="grid-column:2;grid-row:2;">
+          <div class="canvas-cell-title">🏗️ Recursos Clave</div>
+          <ul>
+            <li>Equipo consultor especializado</li>
+            <li>Base de datos normativa actualizada</li>
+            <li>Metodología Sinergia-GEDu</li>
+            <li>Red de relaciones institucionales</li>
+            <li>Plataforma de gestión documental</li>
+          </ul>
+        </div>
+        <div class="canvas-cell" style="grid-column:4;grid-row:2;">
+          <div class="canvas-cell-title">📡 Canales</div>
+          <ul>
+            <li>Red de referidos institucionales</li>
+            <li>LinkedIn y redes profesionales</li>
+            <li>Eventos y congresos educativos</li>
+            <li>Página web y SEO local</li>
+            <li>Alianzas con notarías y despachos</li>
+          </ul>
+        </div>
+        <div class="canvas-cell" style="grid-column:5;grid-row:2;">
+          <div class="canvas-cell-title">🌍 Mercado Geográfico</div>
+          <ul>
+            <li>Hermosillo y Sonora (base)</li>
+            <li>Noroeste de México</li>
+            <li>CDMX y Área Metropolitana</li>
+            <li>Expansión nacional año 3</li>
+          </ul>
+        </div>
+
+        <!-- Fila 3: Costos e Ingresos (full row) -->
+        <div class="canvas-cell" style="grid-column:1 / span 2;grid-row:3;background:rgba(239,68,68,0.05);border-color:rgba(239,68,68,0.2);">
+          <div class="canvas-cell-title" style="color:#f87171;">💸 Estructura de Costos</div>
+          <ul style="display:grid;grid-template-columns:1fr 1fr;gap:0.2rem;">
+            <li>Honorarios equipo consultor</li>
+            <li>Gastos de trámites y derechos</li>
+            <li>Software de gestión documental</li>
+            <li>Marketing y posicionamiento</li>
+            <li>Capacitación y actualización</li>
+            <li>Gastos de representación</li>
+          </ul>
+        </div>
+        <div class="canvas-cell" style="grid-column:3 / span 3;grid-row:3;background:rgba(16,185,129,0.05);border-color:rgba(16,185,129,0.2);">
+          <div class="canvas-cell-title" style="color:#6ee7b7;">💰 Fuentes de Ingresos</div>
+          <ul style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.2rem;">
+            <li>Proyecto RVOE (pago por etapas)</li>
+            <li>Consultoría de operación (mensual)</li>
+            <li>Auditoría institucional (proyecto)</li>
+            <li>Modelo universitario (proyecto)</li>
+            <li>Retainer de mantenimiento</li>
+            <li>Talleres y capacitación</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ MODELO UNIVERSITARIO ══════════ -->
+<section id="universidad">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Servicio Estrella</div>
+      <h2 class="section-title">Nuevo Modelo de Negocio <span>para tu Universidad</span></h2>
+      <p class="section-desc">Un diagnóstico profundo y un rediseño completo de tu propuesta de valor universitaria, adaptado al mercado educativo actual.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-phase">
+        <div class="phase-num">01</div>
+        <div class="phase-label">Mes 1</div>
+        <div class="phase-title">Diagnóstico Estratégico</div>
+        <div class="phase-items">FODA · Benchmarking · Análisis de mercado · Perfil del estudiante actual</div>
+      </div>
+      <div class="timeline-phase">
+        <div class="phase-num">02</div>
+        <div class="phase-label">Mes 2</div>
+        <div class="phase-title">Diseño del Modelo</div>
+        <div class="phase-items">Canvas educativo · Oferta diferenciada · Propuesta curricular · Perfiles de egreso</div>
+      </div>
+      <div class="timeline-phase">
+        <div class="phase-num">03</div>
+        <div class="phase-label">Mes 3</div>
+        <div class="phase-title">Modelo Financiero</div>
+        <div class="phase-items">Proyección a 5 años · Punto de equilibrio · Escenarios de matrícula · ROI</div>
+      </div>
+      <div class="timeline-phase">
+        <div class="phase-num">04</div>
+        <div class="phase-label">Mes 4</div>
+        <div class="phase-title">Estrategia de Captación</div>
+        <div class="phase-items">Marketing educativo · Canales digitales · Embudo de conversión · Fidelización</div>
+      </div>
+      <div class="timeline-phase">
+        <div class="phase-num">05</div>
+        <div class="phase-label">Mes 5</div>
+        <div class="phase-title">Implementación y Trámites</div>
+        <div class="phase-items">RVOE de nuevas carreras · Registro de programas · Plan de arranque operativo</div>
+      </div>
+    </div>
+
+    <div class="grid-3 mt-3">
+      <div class="card card-gold">
+        <div style="font-size:1.5rem;margin-bottom:0.6rem;">🎯</div>
+        <div style="font-family:'Outfit',sans-serif;font-weight:700;color:#fff;margin-bottom:0.4rem;">Diferenciación Académica</div>
+        <div style="font-size:0.83rem;color:var(--text-muted);">Identificamos nichos de mercado no atendidos y diseñamos programas educativos únicos que posicionan a tu universidad como referente regional.</div>
+      </div>
+      <div class="card card-teal">
+        <div style="font-size:1.5rem;margin-bottom:0.6rem;">💹</div>
+        <div style="font-family:'Outfit',sans-serif;font-weight:700;color:#fff;margin-bottom:0.4rem;">Sostenibilidad Financiera</div>
+        <div style="font-size:0.83rem;color:var(--text-muted);">Modelamos fuentes de ingreso diversificadas: matrícula, cursos ejecutivos, certificaciones, consultorías y vinculación empresarial.</div>
+      </div>
+      <div class="card card-purple">
+        <div style="font-size:1.5rem;margin-bottom:0.6rem;">🌐</div>
+        <div style="font-family:'Outfit',sans-serif;font-weight:700;color:#fff;margin-bottom:0.4rem;">Internacionalización</div>
+        <div style="font-size:0.83rem;color:var(--text-muted);">Convenios con universidades extranjeras, dobles titulaciones, programas de intercambio y acreditaciones internacionales.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TARIFAS ══════════ -->
+<section id="tarifas" style="background:rgba(13,32,68,0.35);">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Esquema de Tarifas</div>
+      <h2 class="section-title">Inversión en tu <span>Institución</span></h2>
+      <p class="section-desc">Tres niveles de servicio adaptados al tamaño, madurez y necesidades de tu institución educativa.</p>
+    </div>
+    <div class="pricing-grid">
+
+      <div class="pricing-card">
+        <div class="pricing-tier">Nivel Básico</div>
+        <div class="pricing-name">Diagnóstico + Ruta</div>
+        <div class="pricing-price">Desde $35,000 <small>MXN / proyecto</small></div>
+        <div class="pricing-desc">Ideal para instituciones que desean conocer su situación normativa actual y recibir una hoja de ruta clara.</div>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Auditoría documental inicial</li>
+          <li><span class="check">✓</span> Semáforo de cumplimiento normativo</li>
+          <li><span class="check">✓</span> Identificación de riesgos y brechas</li>
+          <li><span class="check">✓</span> Informe ejecutivo con recomendaciones</li>
+          <li><span class="check">✓</span> 1 reunión de presentación de resultados</li>
+          <li style="opacity:0.4;"><span class="check" style="color:var(--text-dim);">–</span> Gestión de trámites ante SEP</li>
+          <li style="opacity:0.4;"><span class="check" style="color:var(--text-dim);">–</span> Acompañamiento mensual</li>
+        </ul>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="pricing-badge">⭐ Más Solicitado</div>
+        <div class="pricing-tier">Nivel Completo</div>
+        <div class="pricing-name">Gestión Integral</div>
+        <div class="pricing-price">Desde $120,000 <small>MXN / proyecto</small></div>
+        <div class="pricing-desc">El servicio de principio a fin: desde el diagnóstico hasta la resolución favorable del RVOE o registro institucional.</div>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Todo lo del nivel Básico</li>
+          <li><span class="check">✓</span> Elaboración completa del expediente</li>
+          <li><span class="check">✓</span> Gestión y seguimiento ante SEP</li>
+          <li><span class="check">✓</span> Atención de prevenciones y observaciones</li>
+          <li><span class="check">✓</span> Diseño de reglamentos y manuales</li>
+          <li><span class="check">✓</span> Dashboard de seguimiento en línea</li>
+          <li><span class="check">✓</span> Consultor dedicado durante todo el proceso</li>
+        </ul>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-tier">Nivel Estratégico</div>
+        <div class="pricing-name">Transformación Institucional</div>
+        <div class="pricing-price">Desde $250,000 <small>MXN / proyecto</small></div>
+        <div class="pricing-desc">Para instituciones que buscan un rediseño total: nuevo modelo universitario, múltiples RVOEs y posicionamiento estratégico.</div>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Todo lo del nivel Completo</li>
+          <li><span class="check">✓</span> Nuevo modelo de negocio universitario</li>
+          <li><span class="check">✓</span> Estudio de mercado y benchmarking</li>
+          <li><span class="check">✓</span> Diseño de nueva oferta educativa</li>
+          <li><span class="check">✓</span> Proyecciones financieras a 5 años</li>
+          <li><span class="check">✓</span> Estrategia de marketing educativo</li>
+          <li><span class="check">✓</span> Retainer post-proyecto (6 meses)</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="alert alert-gold mt-3">
+      <span class="alert-icon">💡</span>
+      <span><strong>Esquema de pagos:</strong> Los proyectos se estructuran en pagos por etapas: 30% al inicio, 40% al avance del 60% del proyecto y 30% a la entrega final. También ofrecemos retainers mensuales para mantenimiento y asesoría continua.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ ESTADÍSTICAS ══════════ -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Impacto Proyectado</div>
+      <h2 class="section-title">Resultados que <span>Hablan por Sí Solos</span></h2>
+    </div>
+    <div class="card" style="overflow:hidden;padding:0;">
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-val">95%</div>
+          <div class="stat-lbl">Tasa de éxito en trámites RVOE</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val">40%</div>
+          <div class="stat-lbl">Reducción de tiempos vs. trámite propio</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val">30+</div>
+          <div class="stat-lbl">Documentos normativos gestionados</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val">5★</div>
+          <div class="stat-lbl">Satisfacción de clientes institucionales</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CONTACTO ══════════ -->
+<section id="contacto" style="background:rgba(13,32,68,0.35);">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">¿Listo para comenzar?</div>
+      <h2 class="section-title">Agenda tu <span>Diagnóstico Gratuito</span></h2>
+      <p class="section-desc">La primera sesión de diagnóstico es sin costo. Identificamos en 60 minutos las prioridades de tu institución educativa.</p>
+    </div>
+    <div class="grid-2" style="align-items:start;gap:2rem;">
+      <div class="card card-gold">
+        <div style="font-family:'Outfit',sans-serif;font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:1.25rem;">📋 ¿Qué incluye el diagnóstico gratuito?</div>
+        <ul style="list-style:none;">
+          <li style="font-size:0.87rem;color:var(--text-muted);padding:0.5rem 0;display:flex;gap:0.75rem;border-bottom:1px solid var(--border-light);align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;flex-shrink:0;">01</span>
+            <span>Revisión del estado actual de tu institución frente a la normativa SEP vigente</span>
+          </li>
+          <li style="font-size:0.87rem;color:var(--text-muted);padding:0.5rem 0;display:flex;gap:0.75rem;border-bottom:1px solid var(--border-light);align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;flex-shrink:0;">02</span>
+            <span>Identificación de los 3 riesgos normativos más urgentes a resolver</span>
+          </li>
+          <li style="font-size:0.87rem;color:var(--text-muted);padding:0.5rem 0;display:flex;gap:0.75rem;border-bottom:1px solid var(--border-light);align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;flex-shrink:0;">03</span>
+            <span>Propuesta de ruta de trabajo personalizada con tiempos y entregables</span>
+          </li>
+          <li style="font-size:0.87rem;color:var(--text-muted);padding:0.5rem 0;display:flex;gap:0.75rem;align-items:flex-start;">
+            <span style="color:var(--gold);font-size:1rem;flex-shrink:0;">04</span>
+            <span>Cotización detallada sin compromiso para el servicio requerido</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <div style="font-family:'Outfit',sans-serif;font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:1.25rem;">📞 Contáctanos</div>
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+          <div style="display:flex;align-items:center;gap:0.75rem;background:rgba(255,255,255,0.03);border:1px solid var(--border-light);border-radius:10px;padding:0.85rem 1rem;">
+            <span style="font-size:1.2rem;">📧</span>
+            <div>
+              <div style="font-size:0.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.07em;">Correo Electrónico</div>
+              <div style="font-size:0.9rem;color:var(--text);font-weight:500;">servicios@sinergiacontinua.com.mx</div>
             </div>
-        </div>
-    </nav>
-
-    <header id="inicio" class="hero">
-        <div class="hero-bg"></div>
-        <div class="container hero-content">
-            <div class="hero-glass-card">
-                <h1 class="hero-title">Consultoría Empresarial<br><span>y de Gestión</span></h1>
-                <p class="hero-subtitle">Impulsamos tu negocio hacia el éxito sostenible integrando el Ecosistema Vivo del Conocimiento.</p>
-                <div class="hero-buttons">
-                    <a href="#contacto" class="btn btn-primary">Contáctanos</a>
-                    <a href="#servicios" class="btn btn-secondary">Nuestros Servicios</a>
-                </div>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;background:rgba(255,255,255,0.03);border:1px solid var(--border-light);border-radius:10px;padding:0.85rem 1rem;">
+            <span style="font-size:1.2rem;">📱</span>
+            <div>
+              <div style="font-size:0.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.07em;">WhatsApp Business</div>
+              <div style="font-size:0.9rem;color:var(--text);font-weight:500;">55 4024 8314</div>
             </div>
-        </div>
-    </header>
-
-    <section id="acerca" class="section bg-light">
-        <div class="container text-center">
-            <h2 class="section-title scroll-reveal">Acerca de SINERGIA CONTINUA</h2>
-            
-            <div class="grid-3 mt-4">
-                <div class="purpose-card scroll-reveal">
-                    <div class="purpose-icon"><i class="fas fa-bullseye"></i></div>
-                    <h3>Nuestra Misión</h3>
-                    <p>Empoderar a las instituciones educativas y empresas para que alcancen su máximo potencial. Ofrecemos soluciones estratégicas personalizadas que impulsan el crecimiento, la eficiencia y el conocimiento en acción.</p>
-                </div>
-                <div class="purpose-card scroll-reveal" style="transition-delay: 0.2s">
-                    <div class="purpose-icon"><i class="fas fa-briefcase"></i></div>
-                    <h3>Nuestros Servicios</h3>
-                    <p>Proporcionamos una amplia gama de servicios: Gestión y Difusión, Formación y Capacitación, y Soluciones Tech. Desde la estrategia hasta la implementación para alcanzar tus objetivos.</p>
-                </div>
-                <div class="purpose-card scroll-reveal" style="transition-delay: 0.4s">
-                    <div class="purpose-icon"><i class="fas fa-users"></i></div>
-                    <h3>Nuestro Equipo</h3>
-                    <p>El equipo está compuesto por expertos en diversas áreas de negocio. Cada miembro aporta una vasta experiencia, asegurando un enfoque integral e innovador para cada proyecto.</p>
-                </div>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;background:rgba(255,255,255,0.03);border:1px solid var(--border-light);border-radius:10px;padding:0.85rem 1rem;">
+            <span style="font-size:1.2rem;">📍</span>
+            <div>
+              <div style="font-size:0.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.07em;">Ubicación Base</div>
+              <div style="font-size:0.9rem;color:var(--text);font-weight:500;">Cd. Satélite, EdoMex — México</div>
             </div>
-        </div>
-    </section>
-
-    <section id="servicios" class="section bg-dark text-white">
-        <div class="container">
-            <h2 class="section-title text-center scroll-reveal">El Ecosistema de Servicios</h2>
-            
-            <div class="services-wrapper mt-4">
-                <div class="service-row scroll-reveal">
-                    <div class="service-category">Biblioteca</div>
-                    <div class="service-details">
-                        <h4>Proceso vivo de consulta y acceso</h4>
-                        <p>Plataformas digitales y reservorios documentales. Convierte el almacenamiento en una experiencia de usuario dinámica y comunitaria.</p>
-                    </div>
-                </div>
-                
-                <div class="service-row scroll-reveal" style="transition-delay: 0.1s">
-                    <div class="service-category">Editorial</div>
-                    <div class="service-details">
-                        <h4>Generación y validación de contenido</h4>
-                        <p>Productos multiformato, registros ISBN/ISSN, Propiedad Intelectual. Da estructura, propiedad y peso académico y comercial al conocimiento.</p>
-                    </div>
-                </div>
-                
-                <div class="service-row scroll-reveal" style="transition-delay: 0.2s">
-                    <div class="service-category">Consultoría</div>
-                    <div class="service-details">
-                        <h4>Arquitectura de Negocios Educativos</h4>
-                        <p>RVOEs, plataformas BP, estrategias de escala. Monetiza y oficializa la experiencia, reduciendo costos operativos mediante tecnología.</p>
-                    </div>
-                </div>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;background:rgba(255,255,255,0.03);border:1px solid var(--border-light);border-radius:10px;padding:0.85rem 1rem;">
+            <span style="font-size:1.2rem;">🌐</span>
+            <div>
+              <div style="font-size:0.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.07em;">Cobertura</div>
+              <div style="font-size:0.9rem;color:var(--text);font-weight:500;">Nacional — México</div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <section id="testimonios" class="section">
-        <div class="container text-center">
-            <h2 class="section-title scroll-reveal">Lo que dicen nuestros clientes</h2>
-            <div class="grid-2 mt-4">
-                <div class="testimonial-card scroll-reveal">
-                    <p class="quote">"Sinergia Continua revolucionó la forma en que gestionamos nuestros procesos académicos. Su consultoría fue clave para nuestra certificación."</p>
-                    <div class="author">
-                        <strong>María Fernanda L.</strong>
-                        <span>Directora de Institución Educativa</span>
-                    </div>
-                </div>
-                <div class="testimonial-card scroll-reveal" style="transition-delay: 0.2s">
-                    <p class="quote">"El equipo demostró un nivel de profesionalismo excepcional. Gracias a sus plataformas, pudimos escalar nuestro negocio educativo rápidamente."</p>
-                    <div class="author">
-                        <strong>Carlos R.</strong>
-                        <span>Fundador de Plataforma EdTech</span>
-                    </div>
-                </div>
-            </div>
+        <div style="margin-top:1.5rem;">
+          <a href="https://wa.me/525540248314" target="_blank" class="btn-gold" style="width:100%;justify-content:center;display:flex;">
+            Solicitar Diagnóstico Gratuito →
+          </a>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="section bg-blue-light subscribe-section text-center">
-        <div class="container scroll-reveal">
-            <h2 class="section-title">Suscribirse</h2>
-            <p class="mb-2">¡Suscríbete a nuestro boletín informativo para recibir estrategias de gestión y novedades del sector educativo!</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Ingresa tu correo electrónico" required>
-                <button type="submit" class="btn btn-primary">Suscribirse</button>
-            </form>
-        </div>
-    </section>
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-brand"><img src="assets/LOGO BLANCO.svg" alt="Sinergia Continua" style="height:60px;"></div>
+    <div class="footer-sub">Consultoría en Gestión Educativa · Cd. Satélite, EdoMex · México</div>
+    <div class="footer-links">
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Metodología Sinergia-GEDu</a>
+      <a href="#canvas">Modelo Canvas</a>
+      <a href="#tarifas">Tarifas</a>
+      <a href="#universidad">Universidad</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <p class="footer-copy">© 2026 Sinergia Continua ·  · Todos los derechos reservados.</p>
+  </div>
+</footer>
 
-    <section id="contacto" class="section bg-light">
-        <div class="container">
-            <div class="contact-card scroll-reveal">
-                <div class="contact-info">
-                    <h2 class="section-title">Comunícate con nosotros</h2>
-                    <p class="mb-2" style="opacity: 0.9;">BIBLIOTECA - CONSULTORÍA - EDITORIAL</p>
-                    
-                    <ul class="contact-list">
-                        <li>
-                            <i class="fas fa-map-marked-alt text-gold"></i>
-                            <div>
-                                <strong>O, aún mejor, ¡ven a visitarnos!</strong><br>
-                                <span style="font-size: 0.95rem; opacity: 0.9;">Nos encanta recibir a nuestros clientes, así que ven en cualquier momento durante las horas de oficina.</span><br><br>
-                                <span>Av. Circunvalación No. 8, Despacho M-105,<br>Cd. Satélite, Naucalpan de Juárez, EdoMex.</span>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-clock text-gold"></i>
-                            <div>
-                                <strong>Horario</strong><br>
-                                <span>Lunes a Viernes: 09:00 a.m. – 05:00 p.m.</span>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope text-gold"></i>
-                            <a href="mailto:sinergiacontinua.revista@gmail.com">sinergiacontinua.revista@gmail.com</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone-alt text-gold"></i>
-                            <span>55 5204 1105 | 55 4024 8314</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="contact-form-container">
-                    <h3 class="mb-2">Envíanos un mensaje</h3>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Nombre completo" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Correo electrónico" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="¿Cómo podemos ayudarte?" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <footer class="footer bg-dark text-white text-center">
-        <div class="container">
-            <div class="footer-logo mb-1">
-                <img src="assets/LOGO BLANCO.svg" alt="Sinergia Continua Consultoría" class="footer-logo-img">
-            </div>
-            <p class="text-sm" style="opacity: 0.7;">Copyright © 2026 SINERGIA CONTINUA - Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
