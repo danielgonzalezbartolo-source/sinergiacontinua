@@ -1,79 +1,57 @@
-// main.js
 
-document.addEventListener('DOMContentLoaded', () => {
-    
-    // Mobile Menu Toggle
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    const links = document.querySelectorAll('.nav-links li a');
+// Mobile Menu Toggle
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinksContainer = document.querySelector('.nav-links');
 
-    hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-        const icon = hamburger.querySelector('i');
-        if (navLinks.classList.contains('active')) {
-            icon.classList.remove('fa-bars');
-            icon.classList.add('fa-times');
-        } else {
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
+if (menuToggle && navLinksContainer) {
+  menuToggle.addEventListener('click', () => {
+    navLinksContainer.classList.toggle('active');
+  });
+  
+  // Close menu when clicking a link
+  const links = navLinksContainer.querySelectorAll('a');
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinksContainer.classList.remove('active');
+    });
+  });
+}
+// Smooth active nav highlighting
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(link => {
+          link.style.color = '';
+          link.style.borderColor = 'transparent';
+          link.style.background = '';
+        });
+        const activeLink = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+        if (activeLink) {
+          activeLink.style.color = 'var(--gold-light)';
+          activeLink.style.borderColor = 'var(--border)';
+          activeLink.style.background = 'rgba(201,162,39,0.08)';
         }
+      }
     });
+  }, { threshold: 0.35 });
+  sections.forEach(s => observer.observe(s));
 
-    // Close menu when a link is clicked
-    links.forEach(link => {
-        link.addEventListener('click', () => {
-            navLinks.classList.remove('active');
-            hamburger.querySelector('i').classList.remove('fa-times');
-            hamburger.querySelector('i').classList.add('fa-bars');
-        });
+  // Animate cards on scroll
+  const cards = document.querySelectorAll('.service-card, .card, .pricing-card, .timeline-phase');
+  const cardObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        cardObserver.unobserve(entry.target);
+      }
     });
-
-    // Scroll Reveal Animation
-    const revealElements = document.querySelectorAll('.scroll-reveal');
-
-    const revealOnScroll = () => {
-        const windowHeight = window.innerHeight;
-        const revealPoint = 100;
-
-        revealElements.forEach(el => {
-            const elementTop = el.getBoundingClientRect().top;
-            if (elementTop < windowHeight - revealPoint) {
-                el.classList.add('active');
-            }
-        });
-    };
-
-    // Initial check
-    revealOnScroll();
-
-    // Check on scroll
-    window.addEventListener('scroll', () => {
-        revealOnScroll();
-        
-        // Navbar shadow on scroll
-        const nav = document.querySelector('.navbar');
-        if (window.scrollY > 50) {
-            nav.style.boxShadow = '0 2px 15px rgba(0,0,0,0.1)';
-        } else {
-            nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
-        }
-    });
-    
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                const headerOffset = 80;
-                const elementPosition = target.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-                
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-});
+  }, { threshold: 0.1 });
+  cards.forEach((card, i) => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(20px)';
+    card.style.transition = `opacity 0.5s ease ${i * 0.05}s, transform 0.5s ease ${i * 0.05}s, border-color 0.3s, box-shadow 0.3s`;
+    cardObserver.observe(card);
+  });
